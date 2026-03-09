@@ -1,0 +1,25 @@
+Context: {sample['context']}
+
+Query: {sample['query']}
+
+Response: {sample['response']}
+
+Purport: {sample['purport']}
+
+As a spiritual mental health counselor, you have the following information:
+
+  Context: Previous conversations between the patient and the counselor, providing background and continuity to the current situation.
+
+  Query: The patient's current statement or question to the counselor, expressing their concerns or needs.
+
+  Response: The initial non-spiritual response provided by the counselor to the patient's query.
+
+  Purport: The explanation of a Shloka relevant to the patient's situation, offering spiritual insights related to the context.
+
+Task:
+
+  Extract Key Spiritual Advice: Identify spiritual guidance from the purport that directly addresses the patient's situation and concerns.
+
+  Develop Spiritual Templates: Create templates that incorporate the spiritual insights from step 1, aligning them with the patient's Query. Each template should use only the information from the purport. 
+
+  Your response should be concise (within 50 words) and seamlessly integrate into the ongoing dialogue, maintaining coherence with the previous context and conversations.

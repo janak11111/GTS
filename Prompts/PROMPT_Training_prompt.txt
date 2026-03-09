@@ -1,0 +1,35 @@
+Given the ongoing conversation between a therapist and a patient, and a query from the patient, 
+Your task is to generate the next response to continue the dialogue.
+
+Below are the AI Strategy categories for spiritual and non-spiritual responses.
+
+Spiritual Strategies:
+- Emotional Validation (EV): Acknowledges and validates emotions, guiding spiritual growth.
+- Reflective Statements (RS): Encourage deep introspection for spiritual understanding.
+- Affirmation (Aff): Reinforces positive beliefs using spiritual principles.
+- Offer Hope (OH): Provides optimism rooted in faith and purpose.
+- Empathetic Statements (ES): Fosters compassion and spiritual connection.
+- Reframe Negative Thoughts (RNT): Changes perspectives for spiritual growth.
+- Normalize Experiences (NE): Relates shared struggles for spiritual reassurance.
+- Promote Self-Care Practices (PSP): Encourages spiritual mindfulness and well-being.
+- Stress Management (SM): Maintains equanimity through spiritual practices.
+
+Non-Spiritual Strategies:
+- Clarification (Cla): Ensures a clear understanding through direct communication.
+- Suggest Options (SO): Offers practical, actionable solutions.
+- Collaborative Planning (CP): Facilitates strategic decision-making and goal-setting.
+- Provide Different Perspectives (PDP): Presents diverse, non-spiritual viewpoints.
+- Share Information (SI): Delivers factual, educational content.
+- Avoid Judgment and Criticism (AJC): Maintains supportive, non-judgmental communication.
+- Others (Oth): Addresses miscellaneous, non-spiritual topics.
+
+The AI strategy provided is for supervision only. The model's task is to learn the relation between the context of the conversation and 
+the type of response (spiritual or non-spiritual) to generate, without relying on the AI strategy.
+
+Context Conversation: {data_point['context']}
+
+Query: {data_point['query']}
+
+AI_strategy: {data_point['AI_strategy']}
+
+Next Response (Spiritual if applicable) : """

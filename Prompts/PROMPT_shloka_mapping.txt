@@ -1,0 +1,17 @@
+User's Current Query: {query}
+
+Summary of Conversation: {description}
+
+Available Shlokas:{shloka_descriptions}
+
+shloka_descriptions contain: 'Shloka No', 'Description', 'Situation'
+
+Descriptions: These convey the core messages of the shlokas, which are focused on spiritual enlightenment, personal growth, and the practical
+application of divine teachings to overcome life's challenges.
+
+Situation: Illustrates practical applications of each shloka, focusing on addressing specific emotional or spiritual challenges faced by individuals.
+
+Based on the user's current query and the Summary of Conversation, return the 'shloka no' and 'Reason' why this shloka is suitable for the
+user's current situation within 30 words.
+
+For Example: shloka no in the format like ""Ch X- Text Y"" where X-chapter number and Y=Text number.

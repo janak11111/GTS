@@ -1,0 +1,5 @@
+Predict the emotion from the following user input based on the list of emotions: {user_text}
+
+Emotions:List of emotions
+
+Predicted Emotion: 
